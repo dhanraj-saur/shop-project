@@ -1,0 +1,16 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#rzp-button1 {
+    width: 130px;
+    height: 50px;
+    font-size: 1rem;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Profile</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="brand">
+      <a href="#">Shopping Cart</a>
+    </div>
+    <div class="nav-items">
+      <a href="../shop/shop.html">Home Page</a>
+      <a href="../cart/cart.html">Cart Page</a>
+    </div>
+  </nav>
+  <h1 class="heading-2">My Profile</h1>
+  <div class="profile">
+    <input type="text" placeholder="Full Name" id="input-fname" />
+    <br><br>
+    <input type="text" placeholder="last Name" id="input-lname" />
+    <br><br>
+    <button class="bt-n" id="save-info" onclick="saveInfo()">Save info</button>
+    <br><br>
+    <br><br>
+    <h1 class="heading-2">Edit password</h1>
+    <input type="password" placeholder="Old Password" id="oldPassword" />
+    <br><br>
+    <input type="password" placeholder="New Password" id="newPassword" />
+    <br><br>
+    <input type="password" placeholder="Confirm Password" id="confirmPassword" />
+    <br><br>
+  </div>
+  <div class="button-3">
+    <button class="bt-n" id="change-info" onclick="changePassword()">Change password</button>
+    <br><br>
+    <button class="bt-n" id="log-out">Logout</button>
+  </div>
+
+  <script src="profile.js" async defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
+</body>
+
+</html>
